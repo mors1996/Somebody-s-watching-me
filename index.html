@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="./js/main.js"></script>
+  <script src="./js/classes.js"></script>
+</head>
+
+<body>
+
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+  <canvas width="1000px" height="500px" id="mainCanvas">
+
+  </canvas>
+
+
+
+</body>
+<script>
+  ctx = document.getElementById("mainCanvas").getContext('2d');
+  drawEyes(ctx);
+</script>
+
+</html>
